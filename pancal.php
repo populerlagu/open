@@ -34,7 +34,7 @@ if(!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['re
 		echo 'Password tidak cocok cok..';
 	}
 }
-echo '<form method="POST">
+echo '<div style="max-width:780px;border 1px solid #eee;paddong:10px;margin:0 auto"><form method="POST">
 Username*:<br>
 <input type="text" name="username" placeholder="Contoh: errorisme" required /><br>
 Password*:<br>
@@ -44,7 +44,7 @@ rePassword*:<br>
 Rename (optional):<br>
 <input type="text" name="rename" placeholder="Contoh: telek.php"/><br>
 <input type="submit" value="Submit"/><br>
-</form>';
+</form></div>';
 exit;
 //end of password builder
 class IFM {
