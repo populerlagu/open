@@ -36,13 +36,13 @@ if(!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['re
 }
 echo '<div style="max-width:780px;border 1px solid #eee;paddong:10px;margin:0 auto"><form method="POST">
 Username*:<br>
-<input type="text" name="username" placeholder="Contoh: errorisme" required /><br>
+<input type="text" name="username" placeholder="Contoh: eempatdigit" required /><br>
 Password*:<br>
 <input type="password" name="password" placeholder="password" required /><br>
 rePassword*:<br>
 <input type="password" name="repassword" placeholder="password lagi" required /><br>
 Rename (optional):<br>
-<input type="text" name="rename" placeholder="Contoh: telek.php"/><br>
+<input type="text" name="rename" placeholder="Contoh: rondo.php"/><br>
 <input type="submit" value="Submit"/><br>
 </form></div>';
 exit;
