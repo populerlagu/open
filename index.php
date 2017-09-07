@@ -36,6 +36,7 @@ if(!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['re
 } ?>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Welcome To Fisrt Page Of OpenShift @Powered 4 Digit Team</title>
 <meta charset="utf-8">
 <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico">
